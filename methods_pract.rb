@@ -24,6 +24,10 @@ p number1.to_i + number2.to_i
 
 # 4. Write a program that asks the user to enter a word, then prints that word in reverse order.
 
+p 'enter a word'
+word = gets.chomp
+p word.reverse
+
 # 5. Write a program that asks the user to enter a number, then prints the number times 10.
 
 # 6. Write a program that asks the user to enter two words, then prints both words on the same line in all capital letters.
