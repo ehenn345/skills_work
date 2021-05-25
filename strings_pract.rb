@@ -39,8 +39,12 @@ name = gets.chomp
 if name != "santa"
   p "you're not santa!"
 end
- 
+
 # 7. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string concatenation (the + operator).
+
+title = "The Grass is Green"
+author = "john smith"
+p title + " " + "by " + author + " is the name of the book and author"
 
 # 8. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string interpolation (the #{} operator).
 
