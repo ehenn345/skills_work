@@ -36,6 +36,12 @@ p number * 10
 
 # 6. Write a program that asks the user to enter two words, then prints both words on the same line in all capital letters.
 
+p 'enter a word'
+word1 = gets.chomp
+p 'enter a word'
+word2 = gets.chomp
+p "#{word1.upcase} #{word2.upcase}"
+
 # 7. Write a program that asks the user to enter a word, then prints the number of letters in the word.
 
 # 8. Write a program that asks the user to enter a number, then prints "That's a negative number" if the number is less than 0.
