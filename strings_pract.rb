@@ -55,4 +55,12 @@ p "#{title} by #{author} is a great book"
 
 # 9. Write a program that asks the user to enter a password. If the password is "Joshua", the program responds "Shall we play a game?". For any other password, the program responds "Access denied"
 
+p 'enter a password'
+password = gets.chomp
+if password == "Joshua"
+  p "Shall we play a game?"
+else
+  p "Access denied"
+end
+
 # 10. Write a program that uses variables to store the names of three cities, then prints out a sentence using that information with string concatenation (the + operator).
