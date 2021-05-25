@@ -15,6 +15,13 @@ end
 
 # 3. Write a program that asks the user to enter two numbers, then prints the numbers added together.
 
+p 'enter a number'
+number1 = gets.chomp
+p 'enter another number'
+number2 = gets.chomp
+
+p number1.to_i + number2.to_i
+
 # 4. Write a program that asks the user to enter a word, then prints that word in reverse order.
 
 # 5. Write a program that asks the user to enter a number, then prints the number times 10.
