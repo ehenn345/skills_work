@@ -44,6 +44,10 @@ p "#{word1.upcase} #{word2.upcase}"
 
 # 7. Write a program that asks the user to enter a word, then prints the number of letters in the word.
 
+p 'enter a word'
+word = gets.chomp
+p word.length
+
 # 8. Write a program that asks the user to enter a number, then prints "That's a negative number" if the number is less than 0.
 
 # 9. Write a program that asks the user to enter two numbers, then prints the two numbers multiplied together.
