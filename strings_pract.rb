@@ -64,3 +64,9 @@ else
 end
 
 # 10. Write a program that uses variables to store the names of three cities, then prints out a sentence using that information with string concatenation (the + operator).
+
+city1 = "chicago"
+city2 = "detriot"
+city3 = "greenville"
+
+p city1 + ", " + city2 + " and " + city3
